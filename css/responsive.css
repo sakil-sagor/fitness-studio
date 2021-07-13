@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1199px) {
+
+    .container{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .menu-area{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+        color: #ed563b;
+        font-size: 40px;
+    }
+    .course-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .classes-content{
+    display: block;
+    }
+    .blogs{
+        display: block;
+
+    }
+    .blog{
+        margin-top: 50px;
+    }
+    input[type="submit"]{
+        display: block;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .contact-area{
+        display: block;
+    }
+    .map{
+        width: 90%;
+        margin: auto;
+    }
+    iframe{
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    .from{
+        width: 100%;
+    }
+    .schedule-day ul li{
+        margin: 0;
+    }
+    .schedule-day ul li a{
+        padding: 0;
+    }
+    .routine{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 0;
+    }
+    .from{
+        padding-top:5px;
+    }
+    .time{
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .name-pass{
+        display: block;
+    }
+    .name-pass input{
+        width: 100%;
+    }
+}
